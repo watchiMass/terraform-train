@@ -1,0 +1,1 @@
+PUBLIC_IP=13.222.160.56, ID=i-05bc06da70a56fd2f, AZ=us-east-1c

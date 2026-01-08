@@ -1,0 +1,89 @@
+
+# Credentials et secrets
+*.pem
+*.key
+*.p12
+*.pfx
+*.cert
+*.crt
+*.der
+id_rsa
+id_rsa.pub
+*.ppk
+
+# AWS
+.aws/
+aws-credentials.txt
+credentials
+config
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+*.auto.tfvars
+
+# Variables d'environnement
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+*.env
+
+# Clés API et tokens
+secrets.yml
+secrets.yaml
+secret.json
+*.secret
+api_keys.txt
+token.txt
+.secrets/
+
+# Configuration SSH
+.ssh/
+known_hosts
+authorized_keys
+
+# Base de données
+*.db
+*.sqlite
+*.sqlite3
+database.yml
+db_credentials.json
+
+# Docker secrets
+docker-compose.override.yml
+.dockerignore
+
+# Kubernetes secrets
+*-secret.yaml
+secret.yaml
+
+# Autres fichiers sensibles
+*.log
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log
+.npmrc
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Terraform
+.terraform/
+*.tfstate.d/
+crash.log
+.terraform.lock.hcl
+
+# Ansible
+*.vault
+vault_pass.txt
